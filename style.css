@@ -1,0 +1,190 @@
+.logo{
+    width: 500px;
+    height: 500px;
+    padding: 0px;
+    position: relative;
+    display: inline-block;
+    z-index: -1;
+}
+
+.center-logo{
+    text-align: center;
+    margin: -100px;
+}
+
+.center-navegation{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.center-navegation h4{
+    padding: 15px;
+    font-size: 25px;
+    color: #D85B2D;
+    margin: 20px;
+    transition:background-colo 0.3s ease;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.center-navegation h4:hover{
+    background-color: #d85b2d41;
+    cursor: pointer;
+}
+
+.center-navegation a{
+    text-decoration: none;
+}
+
+.vela-calma{
+    width: 200px;
+    height: 200px;
+}
+
+.text-vela-calma{
+    color: #0B0C0C;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.vela-prosperidad{
+    width: 200px;
+    height: 200px;
+}
+
+.text-vela-prosperidad{
+    color: #0B0C0C;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.vela-amor-propio{
+    width: 200px;
+    height: 200px;
+}
+
+.text-vela-amor-propio{
+    color: #0B0C0C;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column{
+    text-align: center;
+    margin-right: 150px;
+}
+
+.imgzoom{
+    transition: transform 0.3s ease;
+}
+
+.imgzoom:hover{
+    transform: scale(1.2);
+
+}
+
+.jabon-calendula{
+    width: 200px;
+    height: 200px;
+}
+
+.text-jabon-calendula{
+    color: #0B0C0C;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.jabon-lavanda{
+    width: 200px;
+    height: 200px;
+}
+
+.text-jabon-lavanda{
+    color: #0B0C0C;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.jabon-carbon-activado{
+    width: 200px;
+    height: 200px;
+}
+
+.text-jabon-carbon-activado{
+    color: #0B0C0C;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+body{
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 0 20px;
+
+}
+
+
+footer {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.aline{
+    text-align: center;
+}
+
+
+.aline {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 400px;
+    font-size: 25px;
+    color: black;
+    font-weight: lighter;
+}
+
+
+.aline label,
+.aline input,
+.aline textarea {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+
+.fijar{
+    width: 500px;
+    height: 200px;
+    resize: none;
+}
+
+.text-aboutus{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: 30vh;
+    font-size: 20px;
+    margin-inline: 400px;
+    font-weight: lighter;
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
